@@ -1,6 +1,6 @@
 # Stockroom — Warehouse Operations Platform
 
-A Flask web application for inventory, procurement, fulfillment and demand planning. It extends [Rumaisa Islam / inventory-management-flask](https://github.com/Rumaisas-islam/inventory-management-flask), upstream commit `41a87483be4e69c9cd797f51dd07604c0149592a`. The original MIT license is retained in LICENSE. Reused components include the User and Item models, password helpers and Flask extension setup. Warehouse workflows, business services, role checks, audit storage, forecasting and the current interface are extensions in this version.
+A Flask web application for inventory, procurement, fulfillment and demand planning. It extends [inventory-management-flask](https://github.com/Rumaisas-islam/inventory-management-flask), upstream commit `41a87483be4e69c9cd797f51dd07604c0149592a`. The original MIT license is retained in LICENSE. Reused components include the User and Item models, password helpers and Flask extension setup. Warehouse workflows, business services, role checks, audit storage, forecasting and the current interface are extensions in this version.
 
 ## Run locally
 
