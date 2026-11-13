@@ -1,0 +1,2 @@
+const lines=document.querySelector('#order-lines');
+if(lines){document.querySelector('#add-line').addEventListener('click',()=>{if(lines.children.length>=20)return;const row=lines.firstElementChild.cloneNode(true);row.querySelector('select').value='';row.querySelector('input').value='';lines.appendChild(row);});lines.addEventListener('click',e=>{const button=e.target.closest('.remove-line');if(!button)return;if(lines.children.length>1)button.closest('.compose-line').remove();else{lines.querySelector('select').value='';lines.querySelector('input').value='';}});}
